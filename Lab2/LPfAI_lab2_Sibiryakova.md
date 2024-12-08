@@ -17,36 +17,36 @@
 Для установки нужно скачать iso-образ с 
 [официального сайта Ubuntu](https://releases.ubuntu.com/jammy/) 
 (с графическим интерфейсом)  
-![alt text](image-3.png)
+![alt text](/images/image-3.png)
 
 **Установка Oracle VirtualBox**    
 * На [официальном сайте](https://www.virtualbox.org/wiki/Downloads)
  скачиваем установщик для вашей ОС (в моем случае это Windows)
 * Открываем загрузки и запускаем .exe файл   
-![alt text](image-1.png)
+![alt text](/images/image-1.png)
 * Установливаем VirtualBox
 
 **Создание виртуальной машины**
 * Открываем VirtualBox и создаем новую виртуальную машину  
-![alt text](image-2.png)
+![alt text](/images/image-2.png)
 * Придумываем имя машины, указываем папку для хранения  и указываем 
 iso-образ и кликаем "Далее"  
-![alt text](image-4.png)
+![alt text](/images/image-4.png)
 * Придумываем имя пользоателя и пароль, кликаем "Далее"  
-![alt text](image-5.png)
+![alt text](/images/image-5.png)
 * Выделяем оперативную память (минимум 4Гб, чтобы все потом грузилось)
  и процессоры  
- ![alt text](image-6.png)
+ ![alt text]/images/(image-6.png)
 * Выделяем память для жесткого диска  
-![alt text](image-7.png)
+![alt text](/images/image-7.png)
 * Все проверяем и кликаем "Готово"  
-![alt text](image-8.png)
+![alt text](/images/image-8.png)
 * Ура, виртуальная машина создана!
 
 **Установка Ubuntu**
 * Запускаем виртуальную машину и ждем пока закончится автоматическая 
 установка  
-![alt text](image-9.png)
+![alt text](/images/image-9.png)
 * Установка прошла, ОС готова к работе
 * **ОЧЕНЬ ВАЖНО НЕ ОБНОВЛЯТЬ СИСТЕМУ ДО 24.04 ВЕРСИИ (иначе не будет работать)**
 
@@ -64,7 +64,7 @@ iso-образ и кликаем "Далее"
 <span style="color:blue">#User privilege specification</span> прописываем  строчку 
 ```<имя пользоателя> ALL=(ALL:ALL) ALL```
   
-![alt text](image-12.png)
+![alt text](/images/image-12.png)
 
 Нажимаем Ctrl+O и enter. Теперь у посльзователя полные права. 
 
@@ -85,7 +85,7 @@ locale  # verify settings
 ```apt``` пакетный менеджер   
 
 
-![alt text](image-11.png)
+![alt text](/images/image-11.png)
 
 * Добавление репозитория ROS2  
 Установка пакета для управления репозиториями и установка репозитория:
@@ -190,7 +190,7 @@ source /usr/share/gazebo/setup.sh
 export TURTLEBOT3_MODEL=waffle
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```  
-![](image-13.png)
+![](/images/image-13.png)
 
 **Запуск TurtleBot3 с манипулятором**  
 Чтобы добавить на робота манипулятор устанавливаем недостающие пакеты
@@ -220,7 +220,7 @@ export TURTLEBOT3_MODEL=waffle
 ros2 launch turtlebot3_manipulation_bringup gazebo.launch.py
 ```
 
-![alt text](image-14.png)
+![alt text](/images/image-14.png)
 
 
 <h3>4. Создание узла</h3>
@@ -238,4 +238,4 @@ cd ~/ros2_ws/src
 ros2 pkg create --build-type ament_python a_node
 ```
 
-![alt text](image-15.png)
+![alt text](/images/image-15.png)
