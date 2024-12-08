@@ -36,7 +36,7 @@ iso-образ и кликаем "Далее"
 ![alt text](/Lab2/images/image-5.png)
 * Выделяем оперативную память (минимум 4Гб, чтобы все потом грузилось)
  и процессоры  
- ![alt text]/Lab2/images/(image-6.png)
+ ![alt text](/Lab2/images/image-6.png)
 * Выделяем память для жесткого диска  
 ![alt text](/Lab2/images/image-7.png)
 * Все проверяем и кликаем "Готово"  
