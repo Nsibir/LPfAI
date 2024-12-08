@@ -85,7 +85,7 @@ locale  # verify settings
 ```apt``` пакетный менеджер   
 
 
-![alt text](/images/image-11.png)
+![alt text](/Lab2/images/image-11.png)
 
 * Добавление репозитория ROS2  
 Установка пакета для управления репозиториями и установка репозитория:
